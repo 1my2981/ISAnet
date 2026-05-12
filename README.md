@@ -23,17 +23,17 @@
 |real2d   |512 $\times$ 128   |   35 $\times$ 35   | 1 $\times$ 1   |50752 |
 |real3d   |256 $\times$ 64 $\times$ 48 |  10 $\times$ 10 $\times$ 10 | 4 $\times$ 2 $\times$ 2 |35280 |
 #  :rocket:  File Description
-
-
-# :floppy_disk: Download 
-
-
 - `ISAnet`：Both the denoising networks of ISAnet for synthetic data and field data are stored here, including both 2D and 3D versions.
 - `PatchUnet`：Both the denoising networks of PatchUnet for synthetic data and field data are stored here, including both 2D and 3D versions.
 - `medianFilter`：Both the denoising networks of Median filter for synthetic data and field data are stored here, including both 2D and 3D versions.
 - `Visualization module`：`Visualization.ipynb` for the visualization of network parameters.
-
  :boom: **Note Only one type of seismic data is presented here. If you are interested in other datasets, you can replace the corresponding input `.pth` model parameters and patch data  `D_patch` .** 
+ 
+# :floppy_disk: Download 
+
+
+
+ 
 # The network structure of the proposed method is shown below:
 ![ISAnet](https://github.com/furser1/ISAnet/blob/main/Fig/1.png)
 # :hotsprings: Example
