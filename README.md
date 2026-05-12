@@ -14,8 +14,6 @@
 --The trained network parameters are saved as `xx.pth` file
  - Setp 4: The visualization module is used to analyze patch data of specific features and observe the performance of different output layers of the network, which provides direct evidence for the interpretability of the network.
 ---
-#  :rocket:  File Description
-
 - `data`：All **data** is stored in this folder, including: `seis2dsyn.mat`, `seis3dsyn.mat`, `real2d.mat`, `real3d.mat`
 
 |name     |data size|Patch size|Slid size|Patches|
@@ -24,6 +22,8 @@
 |seis3dsyn| 401 $\times$ 64 $\times$ 64 |  15 $\times$ 15 $\times$ 15 | 4 $\times$ 2 $\times$ 2 |66248 |
 |real2d   |512 $\times$ 128   |   35 $\times$ 35   | 1 $\times$ 1   |50752 |
 |real3d   |256 $\times$ 64 $\times$ 48 |  10 $\times$ 10 $\times$ 10 | 4 $\times$ 2 $\times$ 2 |35280 |
+#  :rocket:  File Description
+
 
 # :floppy_disk: Download 
 
