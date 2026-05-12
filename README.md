@@ -29,11 +29,6 @@
 - `Visualization module`：`Visualization.ipynb` for the visualization of network parameters.
  :boom: **Note Only one type of seismic data is presented here. If you are interested in other datasets, you can replace the corresponding input `.pth` model parameters and patch data  `D_patch` .** 
  
-# :floppy_disk: Download 
-
-
-
- 
 # The network structure of the proposed method is shown below:
 ![ISAnet](https://github.com/furser1/ISAnet/blob/main/Fig/1.png)
 # :hotsprings: Example
@@ -57,4 +52,4 @@ Dn = data['DataNoisy']
 # :sunrise_over_mountains: Maintainer
 Chao Fu
 
-For any questions regarding the dataset or scripts, please open an issue in this repository.
+For any questions regarding the dataset, `pth` or scripts, please open an issue in this repository.
